@@ -21,8 +21,8 @@ echo "instalando npm"
 sudo apt install npm -y
 
 echo "clonando repositorio"
-git clone https://github.com/DanielaGomez98/microproyecto1_compuNube.git
-cd microproyecto1_compuNube/web1
+git clone https://github.com/juancho191327/Microproyecto1_compNube.git
+cd Microproyect1_master/web1
 npm install consul
 npm install express
 cd ../..
@@ -56,5 +56,5 @@ sudo systemctl restart consul.service
 
 cd ../../..
 cd home/vagrant/
-cd microproyecto1_compuNube/web1
+cd microproyect1_master/web1
 node index.js 3000 &
