@@ -32,6 +32,4 @@ Vagrant.configure("2") do |config|
     haproxy1.vm.hostname = "haproxy1"
   end
 
-  config.vm.synced_folder "/home/daniela-gomez/Documents/Computacion_Nube/microproyecto1", "/vagrant"
-
 end
